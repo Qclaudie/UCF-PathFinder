@@ -1,0 +1,34 @@
+/* this solely deals with the nav bar
+the style for each page are on seperate files */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #343a40;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f4c542;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.toolbar a:hover {
+    background-color: #757369;
+    color: white;
+}
+
+#logout
+{
+  float:right;
+}
+
+#changeTerm {
+  margin-left: 45%;
+  margin-right: 45%;
+}
